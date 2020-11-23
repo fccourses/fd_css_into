@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    /*
+      Селектор по типу: 0001 
+    */
+    h1 {
+      font-size: 50px;
+    }
+    /*
+      Селектор по классу: 0010
+    */
+    .big-size {
+      font-size: 64px;
+    }
+    /*
+      Селектор по id: 0100
+    */
+    #head4 {
+      color: red;
+      font-size: 30px;
+    }
+    /*
+      Встроенные стили: 1000
+    */
+  </style>
+</head>
+<body>
+  <h1>Heading 1</h1>
+  
+  <h1 class="big-size">Heading 2</h1>
+
+  <h1>Heading 3</h1>
+
+  <h1 id="head4" class="big-size" style="font-size:128px;">Heading 4</h1>
+
+  <h1>Heading 5</h1>
+  
+  <p class="big-size">
+    Lorem ipsum dolor sit amet.
+  </p>
+  <div class="big-size">
+    Lorem, ipsum dolor.
+  </div>
+</body>
+</html>
