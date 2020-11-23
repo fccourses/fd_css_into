@@ -1,0 +1,42 @@
+.main {
+  background-color: #fdb0c0;
+}
+
+.main-header {
+  font-size: 48px;
+  color: #4a0100;
+
+  text-align: center;
+}
+
+.main-content {
+  font-size: 16px;
+
+  line-height: 1.6em;
+
+  text-align: justify;
+  text-indent: 2em;
+  text-transform: capitalize;
+}
+
+.page-link {
+  text-decoration: overline underline solid green;
+
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+
+
+
+
+  /* 
+  text-decoration-line: overline underline;
+  text-decoration-style: solid;
+  text-decoration-color: green;
+   */
+}
+
+.btn {
+  text-transform: capitalize;
+}
