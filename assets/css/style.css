@@ -20,16 +20,12 @@
 }
 
 .page-link {
-  text-decoration: overline underline solid green;
-
   font-size: 24px;
   font-weight: 400;
   font-style: normal;
   font-family: 'Roboto', sans-serif;
-
-
-
-
+  
+  text-decoration: overline underline solid green;
   /* 
   text-decoration-line: overline underline;
   text-decoration-style: solid;
