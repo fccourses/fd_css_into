@@ -1,15 +1,27 @@
-.img {
-  display: inline-block;
-
-  width: 320px;
-  height: 320px;
-  object-fit: cover;
-  object-position: top center;
-  
+/* * {
   box-sizing: border-box;
-  border-radius: 50%;
-  border: 4px solid red;
-}
-body{
+} */
+
+body {
   margin: 0;
+}
+
+.wrapper {
+  min-width: 550px;
+  height: 200px;
+  border: 3px solid red;
+  background-color: grey;
+
+  overflow: auto;
+}
+
+.inner {
+  width: 50%;
+  height: 1000px;
+  padding: 10px;
+  border: 4px solid green;
+
+  background-color: dodgerblue;
+
+  margin: 0 auto;
 }
