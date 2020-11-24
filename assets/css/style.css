@@ -1,23 +1,10 @@
-.main-article {
-  font-size: 60px;
-  color: grey;
-  border: 10px solid fuchsia;
-  /* 
-  border-width: 10px;
-  border-style: solid;
-  border-color: red;
-   */
-}
+.img{
+  padding: 15px;
+  border: 5px solid red;
+  margin: 80px;
 
-.main-heading {
-  border: inherit;
-}
+  box-sizing: border-box;
+  
+  width: 320px;
 
-.main-text {
-  font-size: initial;
-}
-
-.article-link{
-  text-decoration: none;
-  color: inherit;
 }
