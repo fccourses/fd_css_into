@@ -3,24 +3,21 @@
   padding: 0;
 }
 
-.wrapper{
-  width: 200px;
-  height: 200px;
-  font-size: 50px;
-  display: inline-block;
-  background-color: blueviolet;
-  border: 5px solid red;
-  text-align: center;
-}
+.container{
 
-.hidden-var1{
-  display: none;
-}
+  /* 
+  vmin - 1% от минимальной стороны viewport
+  vmax - 1% от максимальной стороны viewport
+    */
 
-.hidden-var2{
-  opacity: 0;
-}
+  height: 100vmin;
+  width: 100vmin;
 
-.hidden-var3{
-  visibility: hidden;
+  box-sizing: border-box;
+
+  background-color: black;
+  border: 2px solid red;
+  background-image: url('../images/cat.jpg');
+  background-size: cover;
+  background-position: center;
 }
