@@ -17,6 +17,11 @@ thead{
   text-align: center;
 }
 
+tbody{
+  background-color: grey;
+  color: white;
+}
+
 td{
   width: 25%;
   border: 2px solid;
