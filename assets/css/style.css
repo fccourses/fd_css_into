@@ -1,23 +1,32 @@
-* {
-  margin: 0;
-  padding: 0;
+table{
+  width: 100%;
+  border: 2px solid;
+  border-collapse: collapse;
 }
 
-.container{
+caption{
+  letter-spacing: 1.5em;
+  word-spacing: 1.5em;
 
-  /* 
-  vmin - 1% от минимальной стороны viewport
-  vmax - 1% от максимальной стороны viewport
-    */
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
 
-  height: 100vmin;
-  width: 100vmin;
+thead{
+  text-align: center;
+}
 
-  box-sizing: border-box;
+td{
+  width: 25%;
+  border: 2px solid;
+  padding: 10px;
+}
 
-  background-color: black;
-  border: 2px solid red;
-  background-image: url('../images/cat.jpg');
-  background-size: cover;
-  background-position: center;
+.table-total{
+  text-align: right;
+}
+
+.table-total-sum{
+  text-align: center;  
 }
