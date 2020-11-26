@@ -3,29 +3,24 @@
   padding: 0;
 }
 
-body{
-  background-color: bisque;
+.wrapper{
+  width: 200px;
+  height: 200px;
+  font-size: 50px;
+  display: inline-block;
+  background-color: blueviolet;
+  border: 5px solid red;
+  text-align: center;
 }
 
-.profilePicture{
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
-
-  object-fit: cover;
-  object-position: top;
-  border: 3px solid red;
+.hidden-var1{
+  display: none;
 }
 
-.badPracticeProfilePicture{
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
+.hidden-var2{
+  opacity: 0;
+}
 
-  background-image: url('../images/man.jpeg');
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-
-  border: 3px solid red;
+.hidden-var3{
+  visibility: hidden;
 }
