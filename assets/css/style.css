@@ -3,22 +3,29 @@
   padding: 0;
 }
 
-.welcome-screen{  
-  min-height: 100vh;
-  background-color: aqua;
-  vertical-align: middle;
+body{
+  background-color: bisque;
 }
 
-.inline-block{
-  display: inline-block;
-  width: 33.333%;
-  text-align: center;
-  vertical-align: middle;
-}
-.cat{
-  width: 300px;
+.profilePicture{
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+
+  object-fit: cover;
+  object-position: top;
+  border: 3px solid red;
 }
 
-.vertical-align{
-  vertical-align: top;
+.badPracticeProfilePicture{
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+
+  background-image: url('../images/man.jpeg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+
+  border: 3px solid red;
 }
