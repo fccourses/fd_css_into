@@ -2,22 +2,12 @@ div {
   border: 5px solid;
 }
 
-.wrapper {
-  border: 5px dashed;
+/* Селектор потомков (Вне зависимости от вложенности) */
+
+#unique p {
+  border: 2px dashed red;
 }
 
-#unique {
-  padding: 15px;
-}
-
-/* Селектор Дочерних Элементов (Только 1 уровень вложенности) */
-
-#unique > p {
-  font-size: 2em;
-  color: dodgerblue;
-}
-
-.wrapper > h2 {
-  font-size: 1.5em;
+.wrapper p {
   color: red;
 }
