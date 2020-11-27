@@ -1,9 +1,29 @@
-div {
-  border: 5px solid;
+.card{
+  height: 500px;
+  width: 300px;
+  background-color: blueviolet;
 }
 
-/* Селектор соседних элементов (p после p)  */
+.content{
+  padding-top: 300px;
+}
 
-p + p {
-  color: red;
+.contacts-container{
+  background-color: white;
+  border: 2px solid white;
+
+  display: flex;
+  justify-content: center;
+}
+
+.icon{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.icon + .icon {
+  margin-left: 5px;
 }
