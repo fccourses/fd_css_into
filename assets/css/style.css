@@ -2,8 +2,13 @@
   --main-color: dodgerblue;
 }
 
-a{
+a {
   text-decoration: none;
+}
+
+.link:active {
+  background-color: red;
+  color: white !important;
 }
 
 /* Не посещённые ссылки */
@@ -20,37 +25,38 @@ h1:focus {
   color: white;
   outline: 5px solid black;
 }
-p:focus{
+p:focus {
   outline: 3px solid red;
   color: green;
   background-color: red;
 }
 
-.link:focus {
+/* .link:focus {
   background-color: green;
-}
+} */
 
 a.link {
   color: white;
 }
 
-.link{
+.link {
   display: inline-block;
   box-sizing: border-box;
   color: blueviolet;
   background-color: var(--main-color);
   padding: 12px 8px;
-  border: 6px solid  transparent;
+  border: 6px solid transparent;
 
   cursor: pointer;
 }
 
-li+li{
+li + li {
   margin-top: 15px;
 }
-
+/* 
 .link:hover:not(button) {
   background-color: brown;
   color: white;
   border: 6px solid green;
 }
+ */
