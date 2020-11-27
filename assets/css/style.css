@@ -3,14 +3,11 @@ ul{
   padding: 30px;
 }
 
-body > ul:first-child > li:first-child {
-  background-color: black;
-}
+/* 
+even - чётные элементы
+odd - нечётные элементы
+*/
 
-li:first-child{
+ul > li:nth-child(even){
   color: dodgerblue;
-}
-
-li:last-child{
-  color: blueviolet;
 }
