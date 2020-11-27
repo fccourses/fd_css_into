@@ -6,6 +6,21 @@ a {
   text-decoration: none;
 }
 
+h1:focus {
+  background-color: black;
+  color: white;
+  outline: 5px solid black;
+}
+p:focus{
+  outline: 3px solid red;
+  color: green;
+  background-color: red;
+}
+
+.link:focus {
+  background-color: green;
+}
+
 a.link {
   color: white;
 }
@@ -17,13 +32,15 @@ a.link {
   background-color: var(--main-color);
   padding: 12px 8px;
   border: 6px solid  transparent;
+
+  cursor: pointer;
 }
 
 li+li{
   margin-top: 15px;
 }
 
-.link:hover{
+.link:hover:not(button) {
   background-color: brown;
   color: white;
   border: 6px solid green;
