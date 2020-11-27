@@ -2,12 +2,10 @@ div {
   border: 5px solid;
 }
 
-/* Селектор потомков (Вне зависимости от вложенности) */
+/* #unique > p {
+  border: 5px solid red;
+} */
 
-#unique p {
-  border: 2px dashed red;
-}
-
-.wrapper p {
-  color: red;
+#unique > div > p{
+  color: green;
 }
