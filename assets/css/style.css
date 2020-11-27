@@ -7,8 +7,21 @@ a.link {
 }
 
 .link{
-  color: blueviolet;
   display: inline-block;
+  box-sizing: border-box;
+  color: blueviolet;
   background-color: dodgerblue;
   padding: 12px 8px;
+  border: 6px solid  transparent;
+
+}
+
+li+li{
+  margin-top: 15px;
+}
+
+.link:hover{
+  background-color: brown;
+  color: white;
+  border: 6px solid green;
 }
