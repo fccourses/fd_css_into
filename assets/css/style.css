@@ -8,6 +8,12 @@ even - чётные элементы
 odd - нечётные элементы
 */
 
-ul > li:nth-child(even){
+li:nth-child(even), li:nth-child(odd){
   color: dodgerblue;
+  background-color: blueviolet;
 }
+
+li:nth-child(4n){
+  color: white;
+  background-color: black;
+} 
