@@ -2,10 +2,19 @@
   --main-color: dodgerblue;
 }
 
-a {
+a{
   text-decoration: none;
 }
 
+/* Не посещённые ссылки */
+.link:link {
+  color: aqua;
+}
+/* Посещённые ссылки */
+.link:visited {
+  color: green;
+}
+/* Текущий выбранный элемент */
 h1:focus {
   background-color: black;
   color: white;
